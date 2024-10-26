@@ -1,6 +1,6 @@
 ## AmitavaDutta.github.io
 
-You can find me in the following link
+You can find me using the following link
 
 ```
 AmitavaDutta.github.io
