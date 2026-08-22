@@ -2,7 +2,7 @@
 layout: page
 title: Gallery
 icon: fas fa-images
-order: 3
+order: 8
 ---
 
 A small collection of photographs, interests, and moments from outside my research.
