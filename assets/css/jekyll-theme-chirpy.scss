@@ -1,16 +1,20 @@
 ---
 ---
 
+@use 'main';
+
+/* Research project: text + image side by side */
+
 .research-project {
   display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(260px, 0.65fr);
-  gap: 2.5rem;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.8fr);
+  gap: 2rem;
   align-items: start;
-  margin: 2rem 0 3rem;
+  margin: 1.5rem 0 2.5rem;
 }
 
 .research-project-images-left {
-  grid-template-columns: minmax(260px, 0.65fr) minmax(0, 1.35fr);
+  grid-template-columns: minmax(260px, 0.8fr) minmax(0, 1fr);
 }
 
 .research-text {
@@ -18,13 +22,11 @@
 }
 
 .research-images {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+  min-width: 0;
 }
 
 .research-images figure {
-  margin: 0;
+  margin: 0 0 1.5rem;
 }
 
 .research-images img {
@@ -33,19 +35,23 @@
   height: auto;
   max-height: 360px;
   object-fit: contain;
-  border-radius: 6px;
+  margin: 0 auto;
 }
 
 .research-images figcaption {
   margin-top: 0.5rem;
   font-size: 0.85rem;
+  line-height: 1.4;
   text-align: center;
 }
+
+/* Mobile: stack image and text */
 
 @media (max-width: 768px) {
   .research-project,
   .research-project-images-left {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 
   .research-text {
