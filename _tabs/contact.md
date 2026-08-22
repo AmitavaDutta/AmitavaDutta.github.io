@@ -4,18 +4,9 @@ icon: fas fa-address-card
 order: 9
 ---
 
-# Contact
-
 ## Get in Touch
 
-📧 **Email**
-
-- [20263401@students.iiserpune.ac.in](mailto:20263401@students.iiserpune.ac.in)
-- [amitavadutta.bdn@gmail.com](mailto:amitavadutta.bdn@gmail.com)
-
-📞 **Phone**
-
-**+91 8942 8040 82**
+📧 **Email** - [20263401@students.iiserpune.ac.in](mailto:20263401@students.iiserpune.ac.in)
 
 ---
 
@@ -32,4 +23,14 @@ Maharashtra, India
 
 ### 📍 Location
 
-[**Open Office Location in Google Maps →**](https://maps.app.goo.gl/5EYmV9MH7UjWkTEf8)
+<iframe
+  src="https://www.google.com/maps?q=IISER+Pune&output=embed"
+  width="100%"
+  height="450"
+  style="border:0;"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+[**Open Office Location in Google Maps →**](https://maps.app.goo.gl/5EYmV9MH7UjWkTEf8){:target="_blank" rel="noopener noreferrer"}

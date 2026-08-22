@@ -4,8 +4,6 @@ icon: fas fa-chalkboard-teacher
 order: 4
 ---
 
-# Teaching
-
 ### Autumn 2024
 
 **Indian Institute of Science Education and Research, Pune**
