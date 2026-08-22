@@ -16,9 +16,9 @@ Beyond my work in geodynamics, I have a few interests that have stayed with me o
 
 <div class="gallery-static gallery-two">
 
-  <img src="/assets/img/gallery/brazil-2002.jpg" alt="Brazil 2002">
+<img src="/assets/img/gallery/brazil-2002.jpg" alt="Brazil 2002">
 
-  <img src="/assets/img/gallery/one-piece.png" alt="One Piece">
+<img src="/assets/img/gallery/one-piece.png" alt="One Piece">
 
 </div>
 
@@ -28,13 +28,13 @@ Beyond my work in geodynamics, I have a few interests that have stayed with me o
 
 <div class="gallery-static gallery-two">
 
-  <img src="/assets/img/gallery/photography1.jpg" alt="Photography 1">
+<img src="/assets/img/gallery/photography1.jpg" alt="Photography 1">
 
-  <img src="/assets/img/gallery/photography2.jpg" alt="Photography 2">
+<img src="/assets/img/gallery/photography2.jpg" alt="Photography 2">
 
-  <img src="/assets/img/gallery/photography3.jpg" alt="Photography 3">
+<img src="/assets/img/gallery/photography3.jpg" alt="Photography 3">
 
-  <img src="/assets/img/gallery/photography4.jpg" alt="Photography 4">
+<img src="/assets/img/gallery/photography4.jpg" alt="Photography 4">
 
 </div>
 
@@ -44,7 +44,7 @@ Beyond my work in geodynamics, I have a few interests that have stayed with me o
 
 <div class="gallery-static gallery-two">
 
-  <img src="/assets/img/gallery/family1.jpg" alt="Family">
+<img src="/assets/img/gallery/family1.jpg" alt="Family">
 
 </div>
 
@@ -54,29 +54,29 @@ Beyond my work in geodynamics, I have a few interests that have stayed with me o
 
 <div class="gallery-carousel" data-interval="4500">
 
-  <div class="gallery-slide">
-    <img src="/assets/img/gallery/school1.jpg" alt="School 1">
-  </div>
+<div class="gallery-slide">
+<img src="/assets/img/gallery/school1.jpg" alt="School 1">
+</div>
 
-  <div class="gallery-slide">
-    <img src="/assets/img/gallery/school2.jpg" alt="School 2">
-  </div>
+<div class="gallery-slide">
+<img src="/assets/img/gallery/school2.jpg" alt="School 2">
+</div>
 
-  <div class="gallery-slide">
-    <img src="/assets/img/gallery/school3.jpg" alt="School 3">
-  </div>
+<div class="gallery-slide">
+<img src="/assets/img/gallery/school3.jpg" alt="School 3">
+</div>
 
-  <div class="gallery-slide">
-    <img src="/assets/img/gallery/school4.jpg" alt="School 4">
-  </div>
+<div class="gallery-slide">
+<img src="/assets/img/gallery/school4.jpg" alt="School 4">
+</div>
 
-  <div class="gallery-slide">
-    <img src="/assets/img/gallery/school5.jpg" alt="School 5">
-  </div>
+<div class="gallery-slide">
+<img src="/assets/img/gallery/school5.jpg" alt="School 5">
+</div>
 
-  <div class="gallery-slide">
-    <img src="/assets/img/gallery/school6.jpg" alt="School 6">
-  </div>
+<div class="gallery-slide">
+<img src="/assets/img/gallery/school6.jpg" alt="School 6">
+</div>
 
 </div>
 
@@ -86,21 +86,21 @@ Beyond my work in geodynamics, I have a few interests that have stayed with me o
 
 <div class="gallery-carousel" data-interval="4500">
 
-  <div class="gallery-slide">
-    <img src="/assets/img/gallery/convocation1.jpg" alt="Convocation 2024 - 1">
-  </div>
+<div class="gallery-slide">
+<img src="/assets/img/gallery/convocation1.jpg" alt="Convocation 2024 - 1">
+</div>
 
-  <div class="gallery-slide">
-    <img src="/assets/img/gallery/convocation2.jpg" alt="Convocation 2024 - 2">
-  </div>
+<div class="gallery-slide">
+<img src="/assets/img/gallery/convocation2.jpg" alt="Convocation 2024 - 2">
+</div>
 
-  <div class="gallery-slide">
-    <img src="/assets/img/gallery/convocation3.jpg" alt="Convocation 2024 - 3">
-  </div>
+<div class="gallery-slide">
+<img src="/assets/img/gallery/convocation3.jpg" alt="Convocation 2024 - 3">
+</div>
 
-  <div class="gallery-slide">
-    <img src="/assets/img/gallery/convocation4.jpg" alt="Convocation 2024 - 4">
-  </div>
+<div class="gallery-slide">
+<img src="/assets/img/gallery/convocation4.jpg" alt="Convocation 2024 - 4">
+</div>
 
 </div>
 
@@ -110,7 +110,7 @@ Beyond my work in geodynamics, I have a few interests that have stayed with me o
 
 <div class="gallery-carousel" data-interval="4500">
 
-  <!-- Add Cultural, IISERK images here -->
+<!-- Add Cultural, IISERK images here -->
 
 </div>
 
@@ -120,7 +120,7 @@ Beyond my work in geodynamics, I have a few interests that have stayed with me o
 
 <div class="gallery-carousel" data-interval="4500">
 
-  <!-- Add Field DES, IISERK images here -->
+<!-- Add Field DES, IISERK images here -->
 
 </div>
 
@@ -130,7 +130,7 @@ Beyond my work in geodynamics, I have a few interests that have stayed with me o
 
 <div class="gallery-carousel" data-interval="4500">
 
-  <!-- Add FCIK 19MS, IISERK images here -->
+<!-- Add FCIK 19MS, IISERK images here -->
 
 </div>
 
@@ -140,7 +140,7 @@ Beyond my work in geodynamics, I have a few interests that have stayed with me o
 
 <div class="gallery-carousel" data-interval="4500">
 
-  <!-- Add Outreach DES, IISERK images here -->
+<!-- Add Outreach DES, IISERK images here -->
 
 </div>
 
