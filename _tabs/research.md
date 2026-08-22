@@ -72,7 +72,7 @@ order: 2
 - **Duration:** January 2026 to present
 - **With:** Dr. Ajay Kumar
 
-Details coming soon. Sorry. 😅
+Details coming soon. Sorry. 
 
 ---
 

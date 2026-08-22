@@ -22,7 +22,7 @@ This website brings together information about my:
 - Resources
 - Gallery
 
-It also serves as a place to share some of the things I work on, learn, and occasionally spend far too much time debugging. 😅
+It also serves as a place to share some of the things I work on, learn, and occasionally spend far too much time debugging. 
 
 ## Website Structure
 
