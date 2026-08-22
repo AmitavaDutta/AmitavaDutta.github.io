@@ -8,8 +8,6 @@ order: 3
 
 A collection of photographs, memories, places, and moments from different parts of my journey.
 
----
-
 ## Know Me: My Interests
 
 Beyond my work in geodynamics, I have a few interests that have stayed with me over the years. I enjoy photography, exploring places, following football, and occasionally getting lost in fictional worlds. This section is a small glimpse of some of the things I enjoy outside research.
@@ -21,8 +19,6 @@ Beyond my work in geodynamics, I have a few interests that have stayed with me o
 <img src="/assets/img/gallery/one-piece.png" alt="One Piece">
 
 </div>
-
----
 
 ## Photography
 
@@ -38,8 +34,6 @@ Beyond my work in geodynamics, I have a few interests that have stayed with me o
 
 </div>
 
----
-
 ## Family
 
 <div class="gallery-static gallery-two">
@@ -47,8 +41,6 @@ Beyond my work in geodynamics, I have a few interests that have stayed with me o
 <img src="/assets/img/gallery/family1.jpg" alt="Family">
 
 </div>
-
----
 
 ## School
 
@@ -80,8 +72,6 @@ Beyond my work in geodynamics, I have a few interests that have stayed with me o
 
 </div>
 
----
-
 ## Convocation 2024
 
 <div class="gallery-carousel" data-interval="4500">
@@ -104,8 +94,6 @@ Beyond my work in geodynamics, I have a few interests that have stayed with me o
 
 </div>
 
----
-
 ## Cultural, IISERK
 
 <div class="gallery-carousel" data-interval="4500">
@@ -113,8 +101,6 @@ Beyond my work in geodynamics, I have a few interests that have stayed with me o
 <!-- Add Cultural, IISERK images here -->
 
 </div>
-
----
 
 ## Field DES, IISERK
 
@@ -124,8 +110,6 @@ Beyond my work in geodynamics, I have a few interests that have stayed with me o
 
 </div>
 
----
-
 ## FCIK 19MS, IISERK
 
 <div class="gallery-carousel" data-interval="4500">
@@ -133,8 +117,6 @@ Beyond my work in geodynamics, I have a few interests that have stayed with me o
 <!-- Add FCIK 19MS, IISERK images here -->
 
 </div>
-
----
 
 ## Outreach DES, IISERK
 
