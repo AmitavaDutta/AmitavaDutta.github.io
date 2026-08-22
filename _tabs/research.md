@@ -1,9 +1,10 @@
 ---
+
 layout: page
 title: Research
 icon: fas fa-flask
 order: 2
----
+--------
 
 <style>
 .research-project {
@@ -69,14 +70,28 @@ order: 2
 
 ## 1. Thermochemical Evolution of Continental Lithosphere (PhD)
 
-- **Duration:** January 2026 to present
-- **With:** Dr. Ajay Kumar
+<div class="research-project">
 
-Details coming soon. Sorry. 
+  <div class="research-text">
+
+```
+<p>
+  <strong>Duration:</strong> January 2026 to present<br>
+  <strong>Advisor:</strong> Dr. Ajay Kumar
+</p>
+
+<p>
+  Details coming soon.
+</p>
+```
+
+  </div>
+
+</div>
 
 ---
 
-## 2. Global Moho Compilation and Developing Thermodynamic Datasets (Project Assistant)
+## 2. Global Moho Compilation and Thermodynamic Datasets (Project Assistant)
 
 <div class="research-project research-project-images-left">
 
@@ -85,10 +100,9 @@ Details coming soon. Sorry.
 ```
 <figure>
   <img src="/assets/img/research/global_moho.png"
-       alt="Global crustal thickness compiled from receiver function studies and Crust1.0">
-
+       alt="Global crustal thickness compiled from receiver-function studies and Crust1.0">
   <figcaption>
-    Global crustal thickness compiled from receiver function studies and Crust1.0, and gridded using spline interpolation.
+    Global crustal thickness compiled from receiver-function studies and Crust1.0, gridded using spline interpolation.
   </figcaption>
 </figure>
 ```
@@ -104,31 +118,18 @@ Details coming soon. Sorry.
 </p>
 
 <p>
-  I worked on developing geophysical datasets for a range of crustal and mantle compositions using <em>Perple_X</em>, with the broader goal of converting seismic tomographic velocity models into temperature estimates for the Earth's crust and shallow mantle.
+  I developed thermodynamic datasets using <em>Perple_X</em> to support conversion of seismic tomographic velocities into temperature estimates for the crust and shallow mantle. The datasets include <strong>Vp, Vs, and density</strong> for temperatures of 273–1573 K and pressures up to 15 GPa.
 </p>
 
 <p>
-  As part of this project, we developed datasets of <strong>Vp, Vs, and density</strong> for temperatures ranging from 273 K to 1573 K and pressures up to 15 GPa. These thermodynamic datasets are being used to map seismic tomography velocities onto the calculated properties and obtain temperature estimates for the subsurface.
-</p>
-
-<p>
-  Using these datasets, we are investigating various geophysical and geochemical properties of the lithosphere through numerical and statistical approaches.
-</p>
-
-<p>
-  I also compiled global crustal thickness data derived from receiver-function studies together with <em>Crust1.0</em>. Using <a href="https://www.fatiando.org/" target="_blank" rel="noopener noreferrer"><em>Fatiando a Terra</em></a>'s <a href="https://www.fatiando.org/verde/latest/" target="_blank" rel="noopener noreferrer"><em>Verde</em></a> spline interpolation, I generated a high-resolution gridded global Moho-depth dataset.
-</p>
-
-<p>
-  The resulting grid is designed to be readily integrated with Python, GMT, and other computational environments. The Moho depth dataset, as a key geophysical constraint, forms part of a broader analysis connecting crustal and lithospheric properties with tectonothermal evolution.
+  I also compiled global crustal thickness from receiver-function studies and <em>Crust1.0</em>. Using <em>Fatiando a Terra</em>'s <em>Verde</em> spline interpolation, I generated a high-resolution gridded global Moho-depth dataset for integration with Python, GMT, and other computational workflows.
 </p>
 
 <p>
   <em>
     For references or access to the grid file, please contact me through the
-    <a href="/contact/">Contact</a> page. This webpage is still under development;
-    references and additional details will be added here, and the corresponding
-    GitHub repository will be made public as soon as possible.
+    <a href="/contact/">Contact</a> page. Additional details and the corresponding
+    GitHub repository will be added as the project webpage develops.
   </em>
 </p>
 ```
@@ -139,40 +140,40 @@ Details coming soon. Sorry.
 
 ---
 
-
----
-
 ## 3. Effect of Hydration on the Iron Spin Crossover in Bridgmanite (MS Project)
 
 <div class="research-project">
 
   <div class="research-text">
 
-    <p>
-      <strong>Advisor:</strong> Dr. Gaurav Shukla, Department of Earth Sciences, IISER Kolkata, India<br>
-      <strong>Duration:</strong> 2023–2024
-    </p>
+```
+<p>
+  <strong>Advisor:</strong> Dr. Gaurav Shukla, Department of Earth Sciences, IISER Kolkata, India<br>
+  <strong>Duration:</strong> 2023–2024
+</p>
 
-    <p>
-      Bridgmanite is the most abundant mineral in the Earth's lower mantle, and the spin crossover of iron in Fe<sup>3+</sup>-bearing bridgmanite is a key factor affecting the compressibility, sound velocity, and thermal structure of the system.
-    </p>
+<p>
+  Bridgmanite is the most abundant mineral in the Earth's lower mantle, and the spin crossover of iron in Fe<sup>3+</sup>-bearing bridgmanite is a key factor affecting the compressibility, sound velocity, and thermal structure of the system.
+</p>
 
-    <p>
-      The phase transition in anhydrous bridgmanite is a well-established phenomenon, but relatively little is known about what happens in hydrous systems. Here, I calculated the equations of state of Fe(III)-bearing hydrous bridgmanite to study its structural and elastic properties in the lower mantle using first-principles density functional theory (<em>ab initio</em> DFT).
-    </p>
+<p>
+  The phase transition in anhydrous bridgmanite is a well-established phenomenon, but relatively little is known about what happens in hydrous systems. Here, I calculated the equations of state of Fe(III)-bearing hydrous bridgmanite to study its structural and elastic properties in the lower mantle using first-principles density functional theory (<em>ab initio</em> DFT).
+</p>
+```
 
   </div>
 
   <div class="research-images">
 
-    <figure>
-      <img src="/assets/img/research/ms_project.png"
-           alt="Low spin fractionation in hydrous bridgmanite">
-
-      <figcaption>
-        Low spin fractionation: as observed due to the transition from high spin to low spin at the phase transition pressure.
-      </figcaption>
-    </figure>
+```
+<figure>
+  <img src="/assets/img/research/ms_project.png"
+       alt="Low spin fractionation in hydrous bridgmanite">
+  <figcaption>
+    Low spin fractionation observed due to the transition from high spin to low spin at the phase transition pressure.
+  </figcaption>
+</figure>
+```
 
   </div>
 
@@ -186,40 +187,43 @@ Details coming soon. Sorry.
 
   <div class="research-images">
 
-    <figure>
-      <img src="/assets/img/research/seismology-1.png"
-           alt="Moho depth at the Guapure Craton in South America">
+```
+<figure>
+  <img src="/assets/img/research/seismology-1.png"
+       alt="Moho depth at the Guapure Craton in South America">
+  <figcaption>
+    Moho depth at the Guapure Craton in South America. Left: Joint Inversion. Right: Zhu-Kanamori H-K stacking.
+  </figcaption>
+</figure>
 
-      <figcaption>
-        Moho depth at the Guapure Craton in South America. Top: Joint Inversion. Right: Zhu-Kanamori H-K stacking.
-      </figcaption>
-    </figure>
-
-    <figure>
-      <img src="/assets/img/research/seismology-2.png"
-           alt="Receiver function analysis of Archean cratons">
-    </figure>
+<figure>
+  <img src="/assets/img/research/seismology-2.png"
+       alt="Receiver function analysis of Archean cratons">
+</figure>
+```
 
   </div>
 
   <div class="research-text">
 
-    <p>
-      <strong>Advisor:</strong> Dr. Kajaljyoti Borah, Department of Earth Sciences, IISER Kolkata, India<br>
-      <strong>Duration:</strong> 2022–2023
-    </p>
+```
+<p>
+  <strong>Advisor:</strong> Dr. Kajaljyoti Borah, Department of Earth Sciences, IISER Kolkata, India<br>
+  <strong>Duration:</strong> 2022–2023
+</p>
 
-    <p>
-      I studied the crustal evolution of different Archean cratons using receiver function analysis. I used conventional P-RFs for modeling these receiver functions with H-K stacking and Joint Inversion.
-    </p>
+<p>
+  I studied the crustal evolution of different Archean cratons using receiver function analysis. I used conventional P-RFs for modeling these receiver functions with H-K stacking and Joint Inversion.
+</p>
 
-    <p>
-      I used surface-wave dispersion data (global dispersion data collected from GMD52) together with receiver functions to construct forward models and establish a better understanding of crustal depth–velocity structure. This global optimization provided constraints on the Moho in different cratons.
-    </p>
+<p>
+  I used surface-wave dispersion data from GMD52 together with receiver functions to construct forward models and establish a better understanding of crustal depth–velocity structure. This global optimization provided constraints on the Moho in different cratons.
+</p>
 
-    <p>
-      Linking the Moho discontinuity with its depth and velocity structure emphasized the similarities and differences in crustal structure globally, contributing to our understanding of lithospheric formation and evolution on a global scale.
-    </p>
+<p>
+  Linking the Moho discontinuity with its depth and velocity structure highlighted similarities and differences in crustal structure globally, contributing to our understanding of lithospheric formation and evolution.
+</p>
+```
 
   </div>
 
@@ -233,40 +237,44 @@ Details coming soon. Sorry.
 
   <div class="research-text">
 
-    <p>
-      <strong>Advisor:</strong> Dr. Anindya Bose,
-      <a href="https://bugnss.in/" target="_blank" rel="noopener noreferrer">GNSS Lab</a>,
-      Department of Physics, The University of Burdwan, India<br>
-      <strong>Duration:</strong> 2019 &amp; 2021
-    </p>
+```
+<p>
+  <strong>Advisor:</strong> Dr. Anindya Bose,
+  <a href="https://bugnss.in/" target="_blank" rel="noopener noreferrer">GNSS Lab</a>,
+  Department of Physics, The University of Burdwan, India<br>
+  <strong>Duration:</strong> 2019 &amp; 2021
+</p>
 
-    <p>
-      In 2019, I worked on Precise Point Positioning (PPP) using GNSS pseudorange and carrier-phase residuals. At first, I studied GNSS pseudorange and carrier-phase residuals for data quality and antenna location assessment. I also compared the data quality between one high-cost (JAVAD) and one low-cost receiver (u-blox F9P).
-    </p>
+<p>
+  In 2019, I worked on Precise Point Positioning (PPP) using GNSS pseudorange and carrier-phase residuals. I studied GNSS residuals for data quality and antenna location assessment and compared the performance of one high-cost (JAVAD) and one low-cost receiver (u-blox F9P).
+</p>
 
-    <p>
-      In 2021, the work was associated with an ongoing project entitled
-      <em>“Applicability of Compact GNSS Modules in Real Time Improvement of Position Accuracy for Test Range Applications”</em>,
-      sponsored by DRDO Integrated Test Range (ITR), Chandipur, Balasore.
-    </p>
+<p>
+  In 2021, the work was associated with the ongoing project
+  <em>“Applicability of Compact GNSS Modules in Real Time Improvement of Position Accuracy for Test Range Applications”</em>,
+  sponsored by DRDO Integrated Test Range (ITR), Chandipur, Balasore.
+</p>
 
-    <p>
-      I compared GNSS Precise Point Positioning using data collected simultaneously from four different receivers (two high-cost and two low-cost) and compared their performance using different online processing platforms on three different occasions: Rapid (instantaneously), 3-day delay, and 15-day delay.
-    </p>
+<p>
+  I compared GNSS Precise Point Positioning using data collected simultaneously from four receivers (two high-cost and two low-cost) and evaluated their performance using different online processing platforms at three processing intervals: Rapid, 3-day delay, and 15-day delay.
+</p>
+```
 
   </div>
 
   <div class="research-images">
 
-    <figure>
-      <img src="/assets/img/research/gnss.png"
-           alt="u-blox F9P satellite receiver">
-
-      <figcaption>
-        u-blox F9P satellite receiver.
-      </figcaption>
-    </figure>
+```
+<figure>
+  <img src="/assets/img/research/gnss.png"
+       alt="u-blox F9P satellite receiver">
+  <figcaption>
+    u-blox F9P satellite receiver.
+  </figcaption>
+</figure>
+```
 
   </div>
 
 </div>
+---

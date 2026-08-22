@@ -7,14 +7,6 @@
   icon: "fas fa-envelope"
   noblank: true
 
-- type: linkedin
-  icon: "fab fa-linkedin"
-  url: "https://www.linkedin.com/in/mugiwara-d-amitava/"
-
-- type: bluesky
-  icon: "fa-brands fa-bluesky"
-  url: "https://bsky.app/profile/geo-d-mugiwara.bsky.social"
-
-- type: instagram
-  icon: "fa-brands fa-instagram"
-  url: "https://www.instagram.com/mugiwara_d_amitava/"
+- type: researchgate
+  icon: "fa-brands fa-researchgate"
+  url: "https://www.researchgate.net/profile/Amitava-Dutta-2?ev=hdr_xprf"

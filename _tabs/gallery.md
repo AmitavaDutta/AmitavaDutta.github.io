@@ -9,7 +9,7 @@ A small collection of photographs, interests, and moments from outside my resear
 
 ## Know Me: My Interests
 
-Beyond my work in geodynamics, I have a few interests that have stayed with me over the years. I enjoy photography, exploring places, following football, and occasionally getting lost in fictional worlds. This section is a small glimpse of some of the things I enjoy outside research.
+Beyond my work in geodynamics, I have a few interests that have stayed with me over the years. I enjoy photography, exploring places, following football, and occasionally getting lost in world of One Piece. This section is a small glimpse of some of the things I enjoy outside research.
 
 I also share some of my photographs and other moments on my [Instagram profile](https://www.instagram.com/mugiwara_d_amitava/){:target="_blank" rel="noopener noreferrer"}.
 
