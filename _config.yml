@@ -19,21 +19,7 @@ title: Amitava Dutta # the main title
 tagline: Football is Life # it will display as the subtitle
 
 description: >-
-  I am currently pursuing my PhD in Geodynamics from Earth and Climate Sciences (ECS),
-  IISER Pune, as a CSIR-MoES JRF fellow. After completing my 5-year Integrated BSMS
-  Dual Degree Programme with a major in Geological Sciences from the Indian Institute
-  of Science Education and Research (IISER) Kolkata, I worked as a Research Assistant
-  at ECS, IISER Pune from August 2024 to July 2025. My academic journey has cultivated
-  a deep passion for Solid Earth Geophysics and Geodynamics.
-
-  My research interests lie in exploring the crustal structure and its profound
-  implications on lithospheric deformation and plate-boundary dynamics. By integrating
-  geodynamic modelling, seismology, thermodynamics, and empirical approaches, I aim to
-  quantitatively interpret temperature estimates, seismic velocity anomalies, density
-  anomalies, etc., providing insights into the Earth's interior's physical state. My
-  goal is to bridge the gap between temperature, compositional variations, and mineral
-  physics, ultimately enhancing our understanding of the geodynamic processes shaping
-  our planet.
+  PhD in Geodynamics.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -46,7 +32,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Amitava Dutta # change to your full name
-  email: amitavadutta.bdn@gmail.com # change to your email address
+  #email: amitavadutta.bdn@gmail.com # change to your email address
   email: 20263401@students.iiserpune.ac.in # change to your email address
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
@@ -113,7 +99,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/profile/profile.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
