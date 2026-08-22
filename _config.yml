@@ -14,36 +14,50 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Amitava Dutta # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: Football is Life # it will display as the subtitle
 
-description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+description: >-
+  I am currently pursuing my PhD in Geodynamics from Earth and Climate Sciences (ECS),
+  IISER Pune, as a CSIR-MoES JRF fellow. After completing my 5-year Integrated BSMS
+  Dual Degree Programme with a major in Geological Sciences from the Indian Institute
+  of Science Education and Research (IISER) Kolkata, I worked as a Research Assistant
+  at ECS, IISER Pune from August 2024 to July 2025. My academic journey has cultivated
+  a deep passion for Solid Earth Geophysics and Geodynamics.
+
+  My research interests lie in exploring the crustal structure and its profound
+  implications on lithospheric deformation and plate-boundary dynamics. By integrating
+  geodynamic modelling, seismology, thermodynamics, and empirical approaches, I aim to
+  quantitatively interpret temperature estimates, seismic velocity anomalies, density
+  anomalies, etc., providing insights into the Earth's interior's physical state. My
+  goal is to bridge the gap between temperature, compositional variations, and mineral
+  physics, ultimately enhancing our understanding of the geodynamic processes shaping
+  our planet.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://amitavadutta.github.io"
 
 github:
-  username: github_username # change to your GitHub username
-
-twitter:
-  username: twitter_username # change to your Twitter username
+  username: AmitavaDutta # change to your GitHub username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Amitava Dutta # change to your full name
+  email: amitavadutta.bdn@gmail.com # change to your email address
+  email: 20263401@students.iiserpune.ac.in # change to your email address
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    - https://bsky.app/profile/geo-d-mugiwara.bsky.social
+    - https://www.linkedin.com/in/mugiwara-d-amitava/
+    - https://www.instagram.com/mugiwara_d_amitava/
+    - https://github.com/AmitavaDutta # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    # 
 
 # Site Verification Settings
 webmaster_verifications:
