@@ -100,11 +100,11 @@ Details coming soon. Sorry.
 </p>
 
 <p>
-  I have developed thermodynamic datasets using <em>Perple_X</em> to support conversion of seismic tomographic velocities into temperature estimates for the crust and shallow mantle. The datasets include <strong>Vp, Vs, and density</strong> for temperatures of 273–1573 K and pressures up to 15 GPa.
+  I developed thermodynamic datasets from mineral assemblages at various depths using <em>Perple_X</em>, applying them to convert seismic tomographic velocities into temperature estimates for the crust and shallow mantle. The datasets include <strong>Vp, Vs, and density</strong> for temperatures of 273–1573 K and pressures up to 15 GPa.
 </p>
 
 <p>
-  A compilation of the global crustal thickness from receiver-function studies and <em>Crust1.0</em> were done. Using <em>Fatiando a Terra</em>'s <em>Verde</em> spline interpolation, I generated a high-resolution gridded global Moho-depth dataset for integration with Python, GMT, and other computational workflows.
+  As a parallel component of this project, global crustal thickness data was compiled from receiver-function studies and <em>Crust1.0</em>. Using <em>Fatiando a Terra</em>'s <em>Verde</em> spline interpolation, I transformed this compilation into a high-resolution gridded global Moho-depth dataset ready for integration with Python, GMT, and other computational workflows.
 </p>
 
 <p>
