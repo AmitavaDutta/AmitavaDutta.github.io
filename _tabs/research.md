@@ -76,12 +76,69 @@ Details coming soon. Sorry. 😅
 
 ---
 
-## 2. Thermochemical Evolution of Continental Lithosphere (Project Assistant)
+## 2. Global Moho Compilation and Developing Thermodynamic Datasets (Project Assistant)
 
-- **Duration:** August 2024 to July 2025
-- **With:** Dr. Ajay Kumar
+<div class="research-project research-project-images-left">
 
-Details coming soon. Sorry. 😅
+  <div class="research-images">
+
+```
+<figure>
+  <img src="/assets/img/research/global_moho.png"
+       alt="Global crustal thickness compiled from receiver function studies and Crust1.0">
+
+  <figcaption>
+    Global crustal thickness compiled from receiver function studies and Crust1.0, and gridded using spline interpolation.
+  </figcaption>
+</figure>
+```
+
+  </div>
+
+  <div class="research-text">
+
+```
+<p>
+  <strong>Duration:</strong> August 2024 to July 2025<br>
+  <strong>With:</strong> Dr. Ajay Kumar
+</p>
+
+<p>
+  I worked on developing geophysical datasets for a range of crustal and mantle compositions using <em>Perple_X</em>, with the broader goal of converting seismic tomographic velocity models into temperature estimates for the Earth's crust and shallow mantle.
+</p>
+
+<p>
+  As part of this project, we developed datasets of <strong>Vp, Vs, and density</strong> for temperatures ranging from 273 K to 1573 K and pressures up to 15 GPa. These thermodynamic datasets are being used to map seismic tomography velocities onto the calculated properties and obtain temperature estimates for the subsurface.
+</p>
+
+<p>
+  Using these datasets, we are investigating various geophysical and geochemical properties of the lithosphere through numerical and statistical approaches.
+</p>
+
+<p>
+  I also compiled global crustal thickness data derived from receiver-function studies together with <em>Crust1.0</em>. Using <a href="https://www.fatiando.org/" target="_blank" rel="noopener noreferrer"><em>Fatiando a Terra</em></a>'s <a href="https://www.fatiando.org/verde/latest/" target="_blank" rel="noopener noreferrer"><em>Verde</em></a> spline interpolation, I generated a high-resolution gridded global Moho-depth dataset.
+</p>
+
+<p>
+  The resulting grid is designed to be readily integrated with Python, GMT, and other computational environments. The Moho depth dataset, as a key geophysical constraint, forms part of a broader analysis connecting crustal and lithospheric properties with tectonothermal evolution.
+</p>
+
+<p>
+  <em>
+    For references or access to the grid file, please contact me through the
+    <a href="/contact/">Contact</a> page. This webpage is still under development;
+    references and additional details will be added here, and the corresponding
+    GitHub repository will be made public as soon as possible.
+  </em>
+</p>
+```
+
+  </div>
+
+</div>
+
+---
+
 
 ---
 
