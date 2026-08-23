@@ -3,6 +3,12 @@ layout: page
 ---
 
 <style>
+  /* Pushes the entire list items to the right so the text doesn't cut off */
+  #archives ul.list-unstyled {
+    padding-left: 35px !important;
+    margin-left: 0 !important;
+  }
+
   /* Fixes the distortion by preventing the date from collapsing */
   #archives ul li {
     display: flex !important;
@@ -12,7 +18,7 @@ layout: page
   
   /* Gives the date a fixed width so the text always starts after it */
   #archives .date.day {
-    min-width: 90px;
+    min-width: 95px;
     display: inline-block;
     flex-shrink: 0;
     position: relative;
@@ -32,7 +38,7 @@ layout: page
 
     <li>
       <span class="date day">Jan – Present</span>
-      <span>PhD Researcher <span class="text-muted ms-1">— ECS, IISER Pune</span></span>
+      <span>PhD - Junior Research Fellow <span class="text-muted ms-1">— ECS, IISER Pune</span></span>
     </li>
 
   </ul>
