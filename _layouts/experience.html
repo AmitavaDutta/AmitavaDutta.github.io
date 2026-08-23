@@ -9,7 +9,7 @@ layout: page
     padding-left: 10px !important;
   }
 
-  /* Target the list containers and shift them completely clear of the line */
+  /* Target the list containers and shift them completely clear of the main line */
   #archives ul.list-unstyled {
     margin-left: 45px !important;
     padding-left: 0 !important;
@@ -20,9 +20,23 @@ layout: page
     display: flex !important;
     align-items: center;
     padding: 8px 12px !important;
+    border: none !important;
+  }
+
+  /* Force eliminate the unwanted vertical separator lines everywhere inside the list */
+  #archives ul li::before,
+  #archives ul li::after,
+  #archives .date.day::before,
+  #archives .date.day::after {
+    display: none !important;
+    content: none !important;
+    background: none !important;
+    border: none !important;
+    width: 0 !important;
+    height: 0 !important;
   }
   
-  /* Lock the date block width and aggressively destroy the vertical separator line */
+  /* Lock the date block width and make sure it has no borders or backgrounds */
   #archives .date.day {
     min-width: 105px !important;
     width: 105px !important;
@@ -30,16 +44,6 @@ layout: page
     flex-shrink: 0 !important;
     border: none !important;
     background: none !important;
-  }
-
-  /* Force eliminate any theme pseudo-element lines attached to the date fields */
-  #archives .date.day::before,
-  #archives .date.day::after {
-    display: none !important;
-    content: none !important;
-    background: none !important;
-    width: 0 !important;
-    height: 0 !important;
   }
 
   /* Standard spacing for the job title text */
