@@ -1,13 +1,13 @@
----
-layout: page
-title: Home
-icon: fas fa-home
-order: 1
----
-
-<!-- This shows ONLY on mobile devices -->
-<h1 class="d-block d-md-none font-weight-bold mb-3">Hi, I'm Amitava 👋</h1>
-<h1 class="mb-3">Welcome to my home ground !</h1>
+<div style="margin-top: 1rem; margin-bottom: 0.5rem;">
+  <style>
+    .mobile-only-greeting { display: block; }
+    @media (min-width: 768px) {
+      .mobile-only-greeting { display: none; }
+    }
+  </style>
+  <h2 class="mobile-only-greeting font-weight-bold" style="margin-bottom: 0.25rem; font-size: 1.5rem; color: #888;">Hi, I'm Amitava 👋</h2>
+  <h2 style="margin-top: 0; margin-bottom: 0; font-size: 1.5rem;">Welcome to my home ground !</h2>
+</div>
 
 <p>
 I am a PhD student in Geodynamics in the Department of Earth and Climate Sciences (ECS) at
