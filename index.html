@@ -10,13 +10,31 @@ order: 1
     /* Hide the mobile title on laptops */
     .mobile-only-greeting { display: block; }
     
-    /* Hide the automatic template headers on laptops */
+    /* Hide the automatic template header on laptops */
     @media (min-width: 768px) {
       .mobile-only-greeting { display: none; }
       header { display: none !important; }
       .post-title { display: none !important; }
-      .dynamic-title { display: none !important; } /* Targets Chirpy's page title */
-      #page-title { display: none !important; }
+    }
+
+    /* Styled blocks for Interests section */
+    .interests-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 1rem;
+    }
+    .interest-tag {
+      background-color: var(--button-bg, #2d323f);
+      color: var(--text-color, #adbac7);
+      border: 1px solid var(--btn-border-color, #444c56);
+      border-radius: 6px;
+      padding: 8px 16px;
+      font-size: 0.95rem;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
     }
   </style>
   <h1 class="mobile-only-greeting font-weight-bold" style="margin-bottom: 0.25rem; font-size: 2rem;">Hi, I'm Amitava 👋</h1>
@@ -25,7 +43,7 @@ order: 1
 
 <p>
 I am a PhD student in Geodynamics in the Department of Earth and Climate Sciences (ECS) at
-<a href="https://iiserpune.ac.in" target="_blank" rel="noopener noreferrer">IISER Pune</a>,
+<a href="https://www.iiserpune.ac.in/" target="_blank" rel="noopener noreferrer">IISER Pune</a>,
 with a CSIR-MoES JRF fellowship.
 </p>
 
@@ -39,7 +57,7 @@ In particular, I focus on constraining the thermochemical structure of the litho
 
 <p>
 Before starting my PhD, I completed a <strong>5-year Integrated BSMS Dual Degree Programme with a major in Geological Sciences</strong> at
-<a href="https://iiserkol.ac.in" target="_blank" rel="noopener noreferrer">IISER Kolkata</a>.
+<a href="https://www.iiserkol.ac.in/" target="_blank" rel="noopener noreferrer">IISER Kolkata</a>.
 I subsequently worked as a <strong>Research Assistant</strong> in the Department of Earth and Climate Sciences at IISER Pune from August 2024 to July 2025.
 </p>
 
