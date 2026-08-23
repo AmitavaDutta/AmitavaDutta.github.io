@@ -1,7 +1,7 @@
 ---
 layout: page
 icon: fas fa-chalkboard-teacher
-order: 4
+order: 6
 ---
 
 - ### Autumn 2024

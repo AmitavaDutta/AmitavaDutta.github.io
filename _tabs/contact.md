@@ -1,7 +1,7 @@
 ---
 layout: page
 icon: fas fa-address-card
-order: 9
+order: 10
 ---
 
 ## Get in Touch
