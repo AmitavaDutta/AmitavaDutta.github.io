@@ -22,13 +22,24 @@ layout: page
     padding: 8px 12px !important;
   }
   
-  /* Lock the date block width and remove the theme's built-in separator line */
+  /* Lock the date block width and aggressively destroy the vertical separator line */
   #archives .date.day {
     min-width: 105px !important;
     width: 105px !important;
     display: inline-block !important;
     flex-shrink: 0 !important;
-    border: none !important; /* Removes the vertical separator line */
+    border: none !important;
+    background: none !important;
+  }
+
+  /* Force eliminate any theme pseudo-element lines attached to the date fields */
+  #archives .date.day::before,
+  #archives .date.day::after {
+    display: none !important;
+    content: none !important;
+    background: none !important;
+    width: 0 !important;
+    height: 0 !important;
   }
 
   /* Standard spacing for the job title text */
