@@ -2,28 +2,58 @@
 layout: page
 ---
 
-<div id="archives" class="pl-xl-3">
+<style>
+  .timeline-container {
+    position: relative;
+    padding-left: 30px;
+    border-left: 2px solid #444; /* Vertical timeline line */
+    margin-left: 15px;
+  }
+  .timeline-year {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  .timeline-year::before {
+    content: '';
+    position: absolute;
+    left: -37px;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    background: #666;
+    border-radius: 50%;
+  }
+  .timeline-item {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  .timeline-date {
+    min-width: 80px;
+    color: #888;
+  }
+</style>
 
-  <time class="year lead d-block">2025</time>
-  <ul class="list-unstyled">
+<div class="timeline-container pl-xl-3">
 
-    <li>
-      <span class="date day">Jan – Jul</span>
+  <div class="timeline-year lead d-block">2025</div>
+  <div class="timeline-item">
+    <span class="timeline-date">Jan – Jul</span>
+    <div>
       <span>Project Assistant</span>
       <span class="text-muted ms-1">— ECS, IISER Pune</span>
-    </li>
+    </div>
+  </div>
 
-  </ul>
-
-  <time class="year lead d-block">2024</time>
-  <ul class="list-unstyled">
-
-    <li>
-      <span class="date day">Aug – Dec</span>
+  <div class="timeline-year lead d-block">2024</div>
+  <div class="timeline-item">
+    <span class="timeline-date">Aug – Dec</span>
+    <div>
       <span>Teaching Assistant</span>
       <span class="text-muted ms-1">— ECS, IISER Pune</span>
-    </li>
-
-  </ul>
+    </div>
+  </div>
 
 </div>
