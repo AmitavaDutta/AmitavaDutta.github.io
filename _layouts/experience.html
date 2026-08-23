@@ -3,31 +3,36 @@ layout: page
 ---
 
 <style>
-  /* Pushes the entire list items to the right so the text doesn't cut off */
-  #archives ul.list-unstyled {
-    padding-left: 35px !important;
-    margin-left: 0 !important;
+  /* Reset the entire archive block layout to standard inline behavior */
+  #archives {
+    position: relative;
+    padding-left: 10px !important;
   }
 
-  /* Fixes the distortion by preventing the date from collapsing */
-  #archives ul li {
-    display: flex !important;
-    align-items: flex-start;
+  /* Target the list containers and shift them completely clear of the line */
+  #archives ul.list-unstyled {
+    margin-left: 45px !important;
     padding-left: 0 !important;
   }
+
+  /* Keep the items side-by-side cleanly without breaking alignment */
+  #archives ul li {
+    display: flex !important;
+    align-items: center;
+    padding: 8px 12px !important;
+  }
   
-  /* Gives the date a fixed width so the text always starts after it */
+  /* Lock the date block width so it never shrinks or clips */
   #archives .date.day {
-    min-width: 95px;
-    display: inline-block;
-    flex-shrink: 0;
-    position: relative;
-    z-index: 2;
+    min-width: 105px !important;
+    width: 105px !important;
+    display: inline-block !important;
+    flex-shrink: 0 !important;
   }
 
-  /* Ensures the description content behaves correctly in the flex grid */
+  /* Standard spacing for the job title text */
   #archives ul li > span:nth-child(2) {
-    margin-left: 10px;
+    margin-left: 15px !important;
   }
 </style>
 
@@ -35,32 +40,26 @@ layout: page
 
   <time class="year lead d-block">2026</time>
   <ul class="list-unstyled">
-
     <li>
       <span class="date day">Jan – Present</span>
       <span>PhD - Junior Research Fellow <span class="text-muted ms-1">— ECS, IISER Pune</span></span>
     </li>
-
   </ul>
 
   <time class="year lead d-block">2025</time>
   <ul class="list-unstyled">
-
     <li>
       <span class="date day">Jan – Jul</span>
       <span>Project Assistant <span class="text-muted ms-1">— ECS, IISER Pune</span></span>
     </li>
-
   </ul>
 
   <time class="year lead d-block">2024</time>
   <ul class="list-unstyled">
-
     <li>
       <span class="date day">Aug – Dec</span>
       <span>Teaching Assistant <span class="text-muted ms-1">— ECS, IISER Pune</span></span>
     </li>
-
   </ul>
 
 </div>
