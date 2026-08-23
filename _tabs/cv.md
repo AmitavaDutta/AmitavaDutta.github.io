@@ -6,7 +6,7 @@ order: 6
 # My curriculum vitae:
 
 <iframe
-  src="/assets/pdf/CV_Amitava.pdf"
+  src="/assets/pdf/CV_Amitava.pdf#pagemode=none&navpanes=0"
   width="100%"
   height="900px"
   style="border: none;">
