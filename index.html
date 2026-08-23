@@ -10,11 +10,11 @@ order: 1
     /* Hide the mobile title on laptops */
     .mobile-only-greeting { display: block; }
     
-    /* Hide the automatic template header on laptops */
+    /* Safely hide ONLY the main content title on laptops, leaving the sidebar untouched */
     @media (min-width: 768px) {
       .mobile-only-greeting { display: none; }
-      header { display: none !important; }
-      .post-title { display: none !important; }
+      h1.dynamic-title { display: none !important; }
+      h1.post-title { display: none !important; }
     }
 
     /* Styled blocks for Interests section */
@@ -43,7 +43,7 @@ order: 1
 
 <p>
 I am a PhD student in Geodynamics in the Department of Earth and Climate Sciences (ECS) at
-<a href="https://www.iiserpune.ac.in/" target="_blank" rel="noopener noreferrer">IISER Pune</a>,
+<a href="https://iiserpune.ac.in" target="_blank" rel="noopener noreferrer">IISER Pune</a>,
 with a CSIR-MoES JRF fellowship.
 </p>
 
@@ -57,7 +57,7 @@ In particular, I focus on constraining the thermochemical structure of the litho
 
 <p>
 Before starting my PhD, I completed a <strong>5-year Integrated BSMS Dual Degree Programme with a major in Geological Sciences</strong> at
-<a href="https://www.iiserkol.ac.in/" target="_blank" rel="noopener noreferrer">IISER Kolkata</a>.
+<a href="https://iiserkol.ac.in" target="_blank" rel="noopener noreferrer">IISER Kolkata</a>.
 I subsequently worked as a <strong>Research Assistant</strong> in the Department of Earth and Climate Sciences at IISER Pune from August 2024 to July 2025.
 </p>
 
