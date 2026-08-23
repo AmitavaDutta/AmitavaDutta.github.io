@@ -22,12 +22,13 @@ layout: page
     padding: 8px 12px !important;
   }
   
-  /* Lock the date block width so it never shrinks or clips */
+  /* Lock the date block width and remove the theme's built-in separator line */
   #archives .date.day {
     min-width: 105px !important;
     width: 105px !important;
     display: inline-block !important;
     flex-shrink: 0 !important;
+    border: none !important; /* Removes the vertical separator line */
   }
 
   /* Standard spacing for the job title text */
