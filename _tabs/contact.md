@@ -6,7 +6,7 @@ order: 10
 
 ## Get in Touch
 
-📧 **Email** - [20263401@students.iiserpune.ac.in](mailto:20263401@students.iiserpune.ac.in)
+📧 **Email** - [amitava.dutta@students.iiserpune.ac.in](mailto:amitava.dutta@students.iiserpune.ac.in)
 
 ---
 
